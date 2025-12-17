@@ -1,0 +1,66 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:rgb(171,206,233);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.box {
+    background: rgb(242, 206, 241);
+    padding: 20px;
+    width: 40%;
+    border-radius: 8px;
+}
+
+/* Lists */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f9f6d0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    float: right;
+    cursor: pointer;
+}
+
+/* Login Page */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background: rgb(242, 195, 195);
+    padding: 25px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+#error {
+    color: red;
+}

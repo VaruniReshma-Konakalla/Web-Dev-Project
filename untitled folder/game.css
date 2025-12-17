@@ -1,0 +1,24 @@
+/* Sets font family for elements not drawn on canvas */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+#canvas1 {
+    border: 3px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Ensures canvas scales down to fit the window */
+    max-width: 100%; 
+    max-height: 100%;
+}
+/* Hides all images loaded in the HTML */
+#layer1, #layer2, #layer3, #layer4, 
+#seahorse, #angular1, #angular2, #luckyfish, 
+#hivewhale, #drone, #projectile, #gears, 
+#smokeexplosion, #fireexplosion {
+    display: none; 
+}
+body {
+    background: black;
+    font-family: 'Bangers', cursive;
+    overflow: hidden;
+}

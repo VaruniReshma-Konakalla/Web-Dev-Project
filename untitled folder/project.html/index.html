@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home | Course Selection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Course Selection & Scheduling</h1>
+
+<div class="container">
+
+    <!-- COURSE LIST -->
+    <div class="box">
+        <h2>Available Courses</h2>
+        <ul>
+            <li data-name="Math" data-time="10-11">
+                Math (10-11)
+                <button onclick="addCourse(this)">Register</button>
+            </li>
+
+            <li data-name="Physics" data-time="11-12">
+                Physics (11-12)
+                <button onclick="addCourse(this)">Register</button>
+            </li>
+
+            <li data-name="Chemistry" data-time="10-11">
+                Chemistry (10-11)
+                <button onclick="addCourse(this)">  Register</button>
+            </li>
+
+            <li data-name="Computer Science" data-time="12-1">
+                CS (12-1)
+                <button onclick="addCourse(this)">Register</button>
+            </li>
+        </ul>
+    </div>
+
+    <!-- SCHEDULE -->
+    <div class="box">
+        <h2>My Schedule</h2>
+        <ul id="schedule"></ul>
+    </div>
+
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
